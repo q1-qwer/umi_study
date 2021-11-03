@@ -1,15 +1,5 @@
-import { defineConfig } from 'umi';
-
-export default defineConfig({
-  nodeModulesTransform: {
-    type: 'none',
-  },
-  title:'UmiJS',
-  theme:{
-    "primary-color":"#1DA57A",
-  },
-  // 【配置式路由】
-  routes: [
+export default [
+    // 【配置式路由】
     // { path: '/', component: '@/pages/index' },
     // { path: '/user', component: '@/pages/user' },
 
@@ -80,6 +70,4 @@ export default defineConfig({
     ],
   }, 
   { component:'@/pages/404'}
-  ],
-  fastRefresh: {},
-});
+];
