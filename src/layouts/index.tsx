@@ -13,8 +13,8 @@ const Index = (props:any) => {
     return (
         <div>
             <h2 className={styles.title}>Header</h2>
-            <Link to="user/one">用户1</Link>
-            <Link to="user/two">用户2</Link>
+            <Link to="/user/one">用户1</Link>
+            <Link to="/user/two">用户2</Link>
             {props.children}
             <h2 className={styles.title}>Footer</h2>
         </div>
