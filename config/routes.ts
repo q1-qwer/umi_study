@@ -57,7 +57,7 @@ export default [
   //     { component:'@/pages/404'}
   //   ],
   // }, 
-  {
+  { 
     path: '/user', 
     component: '@/layouts/index',
     wrappers: [
