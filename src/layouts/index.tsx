@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'umi'
 import styles from './index.less';
-
+import { NavLink } from 'umi'
 
 // 约定式路由
 // 当.umirc.ts配置文件中没有写路由时，
@@ -13,8 +13,8 @@ const Index = (props:any) => {
     return (
         <div>
             <h2 className={styles.title}>Header</h2>
-            <Link to="/user/one">用户1</Link>
-            <Link to="/user/two">用户2</Link>
+            <NavLink to="/user/one">用户1</NavLink>
+            <NavLink to="/user/two">用户2</NavLink>
             {props.children}
             <h2 className={styles.title}>Footer</h2>
         </div>

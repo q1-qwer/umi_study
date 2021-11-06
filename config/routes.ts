@@ -57,6 +57,7 @@ export default [
   //     { component:'@/pages/404'}
   //   ],
   // }, 
+  { path: '/', component: '@/pages/index' },
   { 
     path: '/user', 
     component: '@/layouts/index',
